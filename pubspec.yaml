@@ -1,0 +1,17 @@
+name: alias_short
+description: A sample command-line application.
+version: 1.0.0
+repository: https://github.com/yourusername/flutter_alias
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.1.5
+license: MIT
+# Add regular dependencies here.
+dependencies:
+  # path: ^1.8.0
+executables:
+  alias_short: bin/alias_short.dart
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
