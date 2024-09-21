@@ -5,6 +5,7 @@ void main(List<String> arguments) {
     print('No command provided.');
     return;
   }
+  //
 
   final command = arguments.first;
 
@@ -12,6 +13,8 @@ void main(List<String> arguments) {
   final commandsMap = {
     'apk': 'flutter build apk --release',
     'ios': 'flutter build ios',
+    'launcher':'flutter pub run flutter_launcher_icons',
+    'build_runner':'dart run build_runner build --delete-conflicting-outputs'
     // Add more aliases here as needed
   };
 
